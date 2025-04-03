@@ -238,6 +238,7 @@ libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::hwrTimeoutForAlphabeticC
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::hwrTimeoutForCjkChanged()@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::inputMethodHintsChanged()@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::instance()@@Qt_6_PRIVATE_API
+libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::keySoundVolumeChanged()@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::layoutPathChanged()@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::localeChanged()@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setCloseOnReturn(bool)@@Qt_6_PRIVATE_API
@@ -247,6 +248,7 @@ libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setFullScreenMode(bool)@
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setHandwritingModeDisabled(bool)@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setHwrTimeoutForAlphabetic(int)@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setHwrTimeoutForCjk(int)@@Qt_6_PRIVATE_API
+libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setKeySoundVolume(double)@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setVisibleFunctionKeys(QFlags<QtVirtualKeyboard::KeyboardFunctionKey>)@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setWclAlwaysVisible(bool)@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::Settings::setWclAutoCommitWord(bool)@@Qt_6_PRIVATE_API
@@ -295,7 +297,11 @@ libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::VirtualKeyboardAttachedType::Virtu
 libQt6VirtualKeyboard.so.6:QtVirtualKeyboard::VirtualKeyboardAttachedType::extraDictionariesChanged()@@Qt_6_PRIVATE_API
 libQt6VirtualKeyboard.so.6:Qt_6
 libQt6VirtualKeyboard.so.6:Qt_6_PRIVATE_API
-libQt6VirtualKeyboard.so.6:qml_register_types_QtQuick_VirtualKeyboard()@@Qt_6
+libQt6VirtualKeyboard.so.6:qml_register_types_QtQuick_VirtualKeyboard_Core()@@Qt_6
+libQt6VirtualKeyboardQml.so.6:NonQt
+libQt6VirtualKeyboardQml.so.6:Qt_6
+libQt6VirtualKeyboardQml.so.6:Qt_6_PRIVATE_API
+libQt6VirtualKeyboardQml.so.6:qml_register_types_QtQuick_VirtualKeyboard()@@Qt_6
 libQt6VirtualKeyboardSettings.so.6:NonQt
 libQt6VirtualKeyboardSettings.so.6:Qt_6
 libQt6VirtualKeyboardSettings.so.6:Qt_6_PRIVATE_API
